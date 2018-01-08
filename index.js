@@ -25,7 +25,7 @@ prompt.get('Player 1',
 
 function printNames(results1, results2) {
   player1 = results1['Player 1'];
-  player2 = results1['Player 2'];
+  player2 = results2['Player 2'];
   console.log(`\nOK. Player 1 ('X's) is ${player1} and Player 2 ('O's) is ${player2}`);
   play(1);
 }
