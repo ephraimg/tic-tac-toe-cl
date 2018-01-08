@@ -58,9 +58,9 @@ function updateBoard(results, player) {
 
 function checkForWinner() {
   var winSymbol;
-  if (board[0][1] === board[0][1] && board[0][1] === board[0][3]) { winSymbol = board[0][1]; }
-  if (board[1][1] === board[1][1] && board[1][1] === board[1][3]) { winSymbol = board[1][1]; }
-  if (board[2][1] === board[2][1] && board[2][1] === board[2][3]) { winSymbol = board[2][1]; }
+  if (board[0][1] === board[0][1] && board[0][1] === board[0][2]) { winSymbol = board[0][1]; }
+  if (board[1][1] === board[1][1] && board[1][1] === board[1][2]) { winSymbol = board[1][1]; }
+  if (board[2][1] === board[2][1] && board[2][1] === board[2][2]) { winSymbol = board[2][1]; }
   if (board[0][0] === board[1][0] && board[1][0] === board[2][0]) { winSymbol = board[0][0]; }
   if (board[0][1] === board[1][1] && board[1][1] === board[2][1]) { winSymbol = board[0][1]; }
   if (board[0][2] === board[1][2] && board[1][2] === board[2][1]) { winSymbol = board[0][2]; }
